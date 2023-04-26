@@ -60,12 +60,12 @@ class PageAppBar extends StatelessWidget {
             Navigator.pop(context);
           },
           icon: const Icon(Icons.arrow_back),
-          color: Colors.black),
+          color: Colors.white),
       actions: [
         PopupMenuButton(
           tooltip: 'Culinarias',
           icon: Icon(Icons.menu),
-          color: Colors.black,
+          color: Colors.white,
           onSelected: (String value) {
             Navigator.of(context).pushNamed('/$value');
           },

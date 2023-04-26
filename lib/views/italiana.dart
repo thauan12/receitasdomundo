@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:receitas_18_04/model/receita.dart';
 import 'package:receitas_18_04/modelviews/receitas.dart';
+import 'package:receitas_18_04/views/receitaCompleta.dart';
 import 'package:receitas_18_04/views/widget/app_bar.dart';
 
 class Italiana extends StatelessWidget {
@@ -18,10 +19,12 @@ class Italiana extends StatelessWidget {
         mainAxisSpacing: 8,
         crossAxisSpacing: 8,
         children: ListaDeReceitas2.map((Receita receita) {
-          return InkWell(
+          return GestureDetector(
             onTap: () {
-              // Ao clicar na receita, navega para a tela de detalhes passando a receita como argumento
-              Navigator.pushNamed(context, '/detalhes', arguments: receita);
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => ReceitaCompleta(receita: receita)));
             },
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
