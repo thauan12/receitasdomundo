@@ -37,7 +37,7 @@ final receita2 = Receita(
     ],
     modo_preparo:
         'Cozinhe o peito de frango no caldo até ficar macio. Separe 1 xícara (chá) de caldo do cozimento e reserve, depois de aguardar, refogue os demais ingredientes e acrescente as ervilhas por último. Desfie o frango, misture ao caldo e deixe cozinhar até secar.',
-    imagem: "assets/image/torta_de_frango.jpg",
+    imagem: "assets/image/torta_de_frango_.jpg",
     video_preparo:
         "https://www.tudogostoso.com.br/receita/1282-torta-de-frango.html");
 
@@ -59,7 +59,7 @@ final receita3 = Receita(
     ],
     modo_preparo:
         "Em um recipiente, coloque a farinha, o óleo, a aguardente e o sal Misture com a água morna. Mexa com as mãos, e a seguir amasse bem sobre uma superfície lisa. Após amassar bem, abra porções de massa com auxílio do rolo (deixe a massa bem fina) empregue o recheio. Una as bordas e aperte com a ponta de um garfo. Recheio, frite",
-    imagem: "assets/image/Pastel.jpg",
+    imagem: "assets/image/Pastel_.jpg",
     video_preparo: "https://www.tudogostoso.com.br/receita/8645-pastel.html");
 
 final receita4 = Receita(
@@ -69,7 +69,7 @@ final receita4 = Receita(
     tempo_preparo: "25 min",
     ingredientes: ["500g de macarrão", 'Sal', 'Agua', 'Óleo', 'molho'],
     modo_preparo: "Esquentar a agua colocar o macarrão depois o molho",
-    imagem: "assets/image/macarrao.png",
+    imagem: "assets/image/macarrao_.png",
     video_preparo:
         "https://www.tudogostoso.com.br/receita/101040-macarrao-simples.html");
 
@@ -89,7 +89,7 @@ final receita5 = Receita(
     ],
     modo_preparo:
         "Abra a massa, passe o molho de tomate, espalhe o queijo, espalhe a cabalresa, coloque azeitona e milho e finalize com oregano a gosto",
-    imagem: "assets/image/pizza.jpg",
+    imagem: "assets/image/pizza_.jpg",
     video_preparo: "URL");
 
 final receita6 = Receita(
@@ -100,7 +100,7 @@ final receita6 = Receita(
     ingredientes: ['Pão', 'Queijo', 'Prejuntos', 'Cebola', 'Tomate', 'Oregano'],
     modo_preparo:
         "Corte o pao, depois pique o queijo o presunto a cebola e o tomate coloca por dima do pão espalhe o oregano e leve ao forno",
-    imagem: "assets/image/Bruschetta.jpg",
+    imagem: "assets/image/Bruschettaa.jpg",
     video_preparo: "URL");
 
 List<Receita> ListaDeReceitas = [receita1, receita2, receita3];
